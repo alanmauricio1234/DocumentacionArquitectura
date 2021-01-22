@@ -725,6 +725,110 @@ y registra al administrador</p></td>
 </ul>
 </div></blockquote>
 </div>
+<div class="section" id="diseno-de-la-arquitectura">
+<h2><strong>Diseño de la Arquitectura</strong><a class="headerlink" href="#diseno-de-la-arquitectura" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><p>Para el diseño de la arquitectura de software se eligió el modelo arquitectónico 4+1</p>
+<ol class="arabic simple">
+<li><p><strong>Vista Lógica</strong></p></li>
+</ol>
+<blockquote>
+<div><p>En la vista lógica se realizaron los diagramas de clases y los diagramas de secuencia respectivos de la funcionalidad del sistema.</p>
+<blockquote>
+<div><ul>
+<li><p><strong>Diagrama de clases</strong></p>
+<p>Este diagrama hace referencia a la funcionalidad de los microservicios.</p>
+</li>
+</ul>
+<div class="figure align-default" id="id1">
+<img alt="_images/diagrama_clases_micro.jpg" src="_images/diagrama_clases_micro.jpg" />
+<p class="caption"><span class="caption-text">El siguiente diagrama representa el modelo de negocios de la aplicación.</span><a class="headerlink" href="#id1" title="Enlace permanente a esta imagen">¶</a></p>
+<div class="legend">
+<div class="figure align-default">
+<img alt="_images/sistema_ventas.jpg" src="_images/sistema_ventas.jpg" />
+</div>
+</div>
+</div>
+<ul>
+<li><p><strong>Diagrama de Secuencia</strong></p>
+<p>El primer diagrama es el de gestión de productos.</p>
+<div class="figure align-default">
+<img alt="_images/ds_gestion_productos.jpg" src="_images/ds_gestion_productos.jpg" />
+</div>
+<p>Este diagrama representa la secuencia de la venta de productos.</p>
+<div class="figure align-default">
+<img alt="_images/ds_venta_productos.jpg" src="_images/ds_venta_productos.jpg" />
+</div>
+</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p><strong>Vista de Desarrollo</strong></p></li>
+</ol>
+<blockquote>
+<div><p>En la vista de desarrollo se realizó el diagrama de componentes y el diagrama de paquetes.</p>
+<blockquote>
+<div><ul>
+<li><p><strong>Diagrama de Paquetes</strong></p>
+<p>En esta parte se muestran tres diagramas: el primero representa a la parte de los microservicios,
+el segundo a la parte de la venta de productos y el último para la gestión de productos.</p>
+<div class="figure align-default">
+<img alt="_images/DP_microservicio.jpg" src="_images/DP_microservicio.jpg" />
+</div>
+<div class="figure align-default">
+<img alt="_images/DP_Ventas.jpg" src="_images/DP_Ventas.jpg" />
+</div>
+<div class="figure align-default">
+<img alt="_images/DP_Gestion.jpg" src="_images/DP_Gestion.jpg" />
+</div>
+</li>
+<li><p><strong>Diagrama de Componentes</strong></p>
+<p>Se muestra el diagrama de componentes general del sistema.</p>
+<div class="figure align-default">
+<img alt="_images/diagrama_de_componentes.png" src="_images/diagrama_de_componentes.png" />
+</div>
+</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p><strong>Vista de Proceso</strong></p></li>
+</ol>
+<blockquote>
+<div><p>Se realizaron tres diagramas de actividad. Las actividades plasmadas en los diagramas son las siguientes:
+gestión de productos, registro de administrador y venta de productos.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Diagrama de Actividad</strong></p></li>
+</ul>
+<div class="figure align-default">
+<img alt="_images/DA_Gestion_Productos.jpg" src="_images/DA_Gestion_Productos.jpg" />
+</div>
+<div class="figure align-default">
+<img alt="_images/DA_registro.jpg" src="_images/DA_registro.jpg" />
+</div>
+<div class="figure align-default">
+<img alt="_images/DA_ventas.jpg" src="_images/DA_ventas.jpg" />
+</div>
+</div></blockquote>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p><strong>Vista Física</strong></p></li>
+</ol>
+<blockquote>
+<div><p>En esta vista se incluye el diagrama de despliegue de la aplicación.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Diagrama de Despliegue</strong></p></li>
+</ul>
+<div class="figure align-default">
+<img alt="_images/diagrama_despliegue.png" src="_images/diagrama_despliegue.png" />
+</div>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -749,6 +853,7 @@ y registra al administrador</p></td>
 <li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>Sistema Uacemita’s Candy</strong></a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#introduccion"><strong>Introducción</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="#requerimientos-de-la-arquitectura"><strong>Requerimientos de la Arquitectura</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#diseno-de-la-arquitectura"><strong>Diseño de la Arquitectura</strong></a></li>
 </ul>
 </li>
 </ul>

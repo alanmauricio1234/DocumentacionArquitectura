@@ -378,3 +378,85 @@
          - **Flujos Alternos**
          
            1. Eliminar un administrador.
+           
+**Diseño de la Arquitectura**
+================================
+
+  Para el diseño de la arquitectura de software se eligió el modelo arquitectónico 4+1
+  
+  1. **Vista Lógica**
+  
+    En la vista lógica se realizaron los diagramas de clases y los diagramas de secuencia respectivos de la funcionalidad del sistema.
+    
+      - **Diagrama de clases**
+        
+        Este diagrama hace referencia a la funcionalidad de los microservicios.
+      
+      .. figure:: _static/diagrama_clases_micro.jpg
+      
+      
+        El siguiente diagrama representa el modelo de negocios de la aplicación.
+        
+        .. figure:: _static/sistema_ventas.jpg
+        
+      
+      - **Diagrama de Secuencia**
+      
+        El primer diagrama es el de gestión de productos.
+        
+        .. figure:: _static/ds_gestion_productos.jpg
+        
+        Este diagrama representa la secuencia de la venta de productos.
+        
+        .. figure:: _static/ds_venta_productos.jpg
+        
+        
+  2. **Vista de Desarrollo**
+  
+    En la vista de desarrollo se realizó el diagrama de componentes y el diagrama de paquetes.
+    
+      - **Diagrama de Paquetes**
+        
+        En esta parte se muestran tres diagramas: el primero representa a la parte de los microservicios,
+        el segundo a la parte de la venta de productos y el último para la gestión de productos.
+        
+        .. figure:: _static/DP_microservicio.jpg  
+        
+        
+        .. figure:: _static/DP_Ventas.jpg
+        
+        
+        .. figure:: _static/DP_Gestion.jpg  
+     
+     
+      - **Diagrama de Componentes**
+      
+        Se muestra el diagrama de componentes general del sistema.
+        
+        .. figure:: _static/diagrama_de_componentes.png
+    
+        
+  3. **Vista de Proceso**
+  
+    Se realizaron tres diagramas de actividad. Las actividades plasmadas en los diagramas son las siguientes:
+    gestión de productos, registro de administrador y venta de productos.
+    
+      - **Diagrama de Actividad**
+      
+      .. figure:: _static/DA_Gestion_Productos.jpg
+    
+    
+      .. figure:: _static/DA_registro.jpg
+    
+    
+      .. figure:: _static/DA_ventas.jpg
+    
+    
+  4. **Vista Física**
+  
+    En esta vista se incluye el diagrama de despliegue de la aplicación.
+    
+      - **Diagrama de Despliegue**  
+      
+      .. figure:: _static/diagrama_despliegue.png    
+
