@@ -388,27 +388,29 @@
   
     En la vista lógica se realizaron los diagramas de clases y los diagramas de secuencia respectivos de la funcionalidad del sistema.
     
-      - **Diagrama de clases**
+      - **Diagrama de Módulos**
         
-        Este diagrama hace referencia a la funcionalidad de los microservicios.
-      
-      .. figure:: _static/diagrama_clases_micro.jpg
-      
-      
-        El siguiente diagrama representa el modelo de negocios de la aplicación.
+        Se realizo un diagrama de módulos divido en dos partes, la primera que es la parte del sistema que ofrece el servicio
+        (se encuentra pintado de verde) y el segunda parte es del sistema que lo comsume, en este caso es el que utilizará el 
+        dueño debido que le permitirá la gestión de productos.
         
-        .. figure:: _static/sistema_ventas.jpg
+        .. figure:: _static/dg_modulos.png
         
       
-      - **Diagrama de Secuencia**
+      - **Diagrama de Objetos**
       
-        El primer diagrama es el de gestión de productos.
+        Se realizaron dos diagramas de objetos. El primero es el diagrama de objetos del sistema que provee el microservicio,
+        el segundo es el diagrama de objetos que se utilizará en el sistema de ventas.
         
-        .. figure:: _static/ds_gestion_productos.jpg
+          Digrama de objetos del sistema que provee el microservicio.
+          
+          
+        .. figure:: _static/dg_objetos_micro.png
         
-        Este diagrama representa la secuencia de la venta de productos.
-        
-        .. figure:: _static/ds_venta_productos.jpg
+          Diagrama de objetos del sistema de ventas.
+          
+          
+        .. figure:: _static/dg_objetos_ventas.png
         
         
   2. **Vista de Desarrollo**
@@ -420,33 +422,25 @@
         En esta parte se muestran tres diagramas: el primero representa a la parte de los microservicios,
         el segundo a la parte de la venta de productos y el último para la gestión de productos.
         
-        .. figure:: _static/DP_microservicio.jpg  
-        
-        
-        .. figure:: _static/DP_Ventas.jpg
-        
-        
-        .. figure:: _static/DP_Gestion.jpg  
-     
+        .. figure:: _static/dg_paquetes.png  
+             
      
       - **Diagrama de Componentes**
       
         Se muestra el diagrama de componentes general del sistema.
         
-        .. figure:: _static/diagrama_de_componentes.png
+        .. figure:: _static/dg_componentes.png
     
         
   3. **Vista de Proceso**
   
-    Se realizaron tres diagramas de actividad. Las actividades plasmadas en los diagramas son las siguientes:
-    gestión de productos, registro de administrador y venta de productos.
+    Se realizaron dos diagramas de actividad. Las actividades plasmadas en los diagramas son las siguientes:
+    gestión de productos y venta de productos.
     
       - **Diagrama de Actividad**
       
       .. figure:: _static/DA_Gestion_Productos.jpg
     
-    
-      .. figure:: _static/DA_registro.jpg
     
     
       .. figure:: _static/DA_ventas.jpg
@@ -458,5 +452,5 @@
     
       - **Diagrama de Despliegue**  
       
-      .. figure:: _static/diagrama_despliegue.png    
+      .. figure:: _static/dg_despliegue.png    
 
